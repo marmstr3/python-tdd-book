@@ -7,7 +7,6 @@ class NewVistorTest(unittest.TestCase):
         self.browser = webdriver.Firefox()
 
     def tearDown(self):
-        print('TearDown')
         self.browser.quit()
 
     def test_can_start_a_list_and_retrieve_it_later(self):
